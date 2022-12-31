@@ -126,6 +126,8 @@ def generateImages(scramble, moves, tps):
     time.sleep(WAITING_TIME_PER_FRAME)
     shutil.copy("out.svg", f"images/img{frameid:05d}.svg")
     moves = badsolutionfix(moves)
+    with open(f"images/img{frameid:05d}.svg", 'r') as mysvg:
+        svg2png(scale=3, bytestring=mysvg.read(), write_to=f"images/img{frameid:05d}.png")
     for move in moves:
         frameid += 1
         mypuz, blank = doMoves(mypuz, blank, move)
