@@ -23,7 +23,7 @@ pipwin install cairocffi
 ```
 tested on windows only, but probably does not matter if you compile image_gen yourself and call it image_gen.exe
 
-if you have troubles with losed frames or something, try changing WAITING_TIME_PER_FRAME, also you can change it to lower value if you are risky (yes i don't want to handle subporcess properly)
+if you have troubles with losed frames or something, try changing WAITING_TIME_PER_FRAME to higher value, also you can change it to lower value if you are risky (yes i don't want to handle subporcess properly)
 
 # usage example:
 ```
