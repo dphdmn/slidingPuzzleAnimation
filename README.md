@@ -7,7 +7,13 @@ Makes a video of sliding puzzle solve using ffmpeg and image_gen (3x3 - 10x10 su
 
 ffmpeg installed
 
-supported sizes: 3x3 - 10x10, autodetected
+#supported customizations
+
+sizes: 3x3 - 10x10, autodetected
+
+tps: any reasonable value
+
+color schemes: hardcoded fringe with rainbow without border at 30 font size (sorry i'm lazy)
 
 # problems
 to make it work on windows you may have to fix dependecy issues with svg converter:
