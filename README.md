@@ -5,6 +5,10 @@ requires 2.0 beta executable of image_gen program https://github.com/dphdmn/imag
 
 requires ffmpeg installed
 
+to make it work on windows you may have to fix dependecy issues with svg converter:
+# pip install pipwin
+# pipwin install cairocffi
+
 tested on windows only, but probably does not matter if you compile image_gen yourself and call it image_gen.exe
 
 usage example:
