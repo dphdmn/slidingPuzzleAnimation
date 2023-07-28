@@ -1,4 +1,4 @@
-# Sliding Puzzle Animation with ffmpeg and image_gen
+# Sliding Puzzle Animation
 
 SlidingPuzzleAnimation is a Python script that creates captivating videos of sliding puzzle solutions using ffmpeg and image_gen. This versatile script supports various puzzle sizes, ranging from 3x3 to 10x10, with automatic detection of the dimensions. The animation's smoothness is adjustable, allowing you to set any reasonable value for turns per second (tps).
 
